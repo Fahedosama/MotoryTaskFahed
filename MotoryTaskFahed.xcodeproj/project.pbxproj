@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D2AE66C2807F5950049C375 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2AE66B2807F5950049C375 /* AppDelegate.swift */; };
+		2D2AE66E2807F5950049C375 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2AE66D2807F5950049C375 /* SceneDelegate.swift */; };
+		2D2AE6702807F5950049C375 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2AE66F2807F5950049C375 /* ViewController.swift */; };
+		2D2AE6732807F5960049C375 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D2AE6712807F5960049C375 /* Main.storyboard */; };
+		2D2AE6762807F5960049C375 /* MotoryTaskFahed.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D2AE6742807F5960049C375 /* MotoryTaskFahed.xcdatamodeld */; };
+		2D2AE6782807F59A0049C375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D2AE6772807F59A0049C375 /* Assets.xcassets */; };
+		2D2AE67B2807F59A0049C375 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D2AE6792807F59A0049C375 /* LaunchScreen.storyboard */; };
+		2D2AE6842807F9840049C375 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2AE6832807F9840049C375 /* Colors.swift */; };
+		2D2AE6862807FACA0049C375 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2AE6852807FACA0049C375 /* Constants.swift */; };
+		2D2AE6892807FB730049C375 /* GalleryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2AE6882807FB730049C375 /* GalleryItem.swift */; };
+		2D2AE68B2807FB860049C375 /* ImagesUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2AE68A2807FB860049C375 /* ImagesUrl.swift */; };
+		2D2AE68D2807FC590049C375 /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2AE68C2807FC590049C375 /* Urls.swift */; };
+		2D2AE6902807FD060049C375 /* WishlistButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2AE68F2807FD060049C375 /* WishlistButton.swift */; };
+		2D2AE6922807FD2C0049C375 /* ImageViewRounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2AE6912807FD2C0049C375 /* ImageViewRounded.swift */; };
+		2D2AE698280810980049C375 /* TableCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D2AE697280810980049C375 /* TableCollectionViewCell.xib */; };
+		2D2AE69A280813EF0049C375 /* TableCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2AE699280813EF0049C375 /* TableCollectionViewCell.swift */; };
+		2D2AE69E28081D8B0049C375 /* WishlistDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2AE69D28081D8B0049C375 /* WishlistDelegate.swift */; };
+		2D2AE6A4280841780049C375 /* GalleryItemCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2AE6A3280841780049C375 /* GalleryItemCoreData.swift */; };
+		2D2AE6A82809B7840049C375 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2AE6A72809B7840049C375 /* CustomSearchBar.swift */; };
+		2D2AE6AA2809ED690049C375 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2AE6A92809ED690049C375 /* User.swift */; };
+		BAC8DD51D7BFBA5F1C5845D2 /* Pods_MotoryTaskFahed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 689D9374CE3F26F2D06B5817 /* Pods_MotoryTaskFahed.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14CD42A954F2BB5B26118717 /* Pods-MotoryTaskFahed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotoryTaskFahed.debug.xcconfig"; path = "Target Support Files/Pods-MotoryTaskFahed/Pods-MotoryTaskFahed.debug.xcconfig"; sourceTree = "<group>"; };
+		2AC20BF6C17D9E3E5051EEB7 /* Pods-MotoryTaskFahed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotoryTaskFahed.release.xcconfig"; path = "Target Support Files/Pods-MotoryTaskFahed/Pods-MotoryTaskFahed.release.xcconfig"; sourceTree = "<group>"; };
+		2D2AE6682807F5950049C375 /* MotoryTaskFahed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotoryTaskFahed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D2AE66B2807F5950049C375 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D2AE66D2807F5950049C375 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2D2AE66F2807F5950049C375 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D2AE6722807F5960049C375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D2AE6752807F5960049C375 /* MotoryTaskFahed.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MotoryTaskFahed.xcdatamodel; sourceTree = "<group>"; };
+		2D2AE6772807F59A0049C375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D2AE67A2807F59A0049C375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D2AE67C2807F59A0049C375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D2AE6832807F9840049C375 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		2D2AE6852807FACA0049C375 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2D2AE6882807FB730049C375 /* GalleryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryItem.swift; sourceTree = "<group>"; };
+		2D2AE68A2807FB860049C375 /* ImagesUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesUrl.swift; sourceTree = "<group>"; };
+		2D2AE68C2807FC590049C375 /* Urls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
+		2D2AE68F2807FD060049C375 /* WishlistButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistButton.swift; sourceTree = "<group>"; };
+		2D2AE6912807FD2C0049C375 /* ImageViewRounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewRounded.swift; sourceTree = "<group>"; };
+		2D2AE697280810980049C375 /* TableCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableCollectionViewCell.xib; sourceTree = "<group>"; };
+		2D2AE699280813EF0049C375 /* TableCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCollectionViewCell.swift; sourceTree = "<group>"; };
+		2D2AE69D28081D8B0049C375 /* WishlistDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistDelegate.swift; sourceTree = "<group>"; };
+		2D2AE6A3280841780049C375 /* GalleryItemCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryItemCoreData.swift; sourceTree = "<group>"; };
+		2D2AE6A72809B7840049C375 /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		2D2AE6A92809ED690049C375 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2D2AE6AB2809F9270049C375 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		689D9374CE3F26F2D06B5817 /* Pods_MotoryTaskFahed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MotoryTaskFahed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D2AE6652807F5950049C375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAC8DD51D7BFBA5F1C5845D2 /* Pods_MotoryTaskFahed.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13E83AC2F8DE3DE5A6B049D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14CD42A954F2BB5B26118717 /* Pods-MotoryTaskFahed.debug.xcconfig */,
+				2AC20BF6C17D9E3E5051EEB7 /* Pods-MotoryTaskFahed.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2D2AE65F2807F5950049C375 = {
+			isa = PBXGroup;
+			children = (
+				2D2AE6AB2809F9270049C375 /* README.md */,
+				2D2AE66A2807F5950049C375 /* MotoryTaskFahed */,
+				2D2AE6692807F5950049C375 /* Products */,
+				13E83AC2F8DE3DE5A6B049D7 /* Pods */,
+				498CCB839C55D7C1C3F2DF72 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2D2AE6692807F5950049C375 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D2AE6682807F5950049C375 /* MotoryTaskFahed.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D2AE66A2807F5950049C375 /* MotoryTaskFahed */ = {
+			isa = PBXGroup;
+			children = (
+				2D2AE6872807FB620049C375 /* Model */,
+				2D2AE68E2807FCB10049C375 /* View */,
+				2D2AE6A52808C0E20049C375 /* Delegate */,
+				2D2AE69628080F030049C375 /* Cell */,
+				2D2AE69C28081C2C0049C375 /* Storyboard */,
+				2D2AE6952807FEF40049C375 /* Controller */,
+				2D2AE6822807F96D0049C375 /* Utils */,
+				2D2AE66B2807F5950049C375 /* AppDelegate.swift */,
+				2D2AE66D2807F5950049C375 /* SceneDelegate.swift */,
+				2D2AE6772807F59A0049C375 /* Assets.xcassets */,
+				2D2AE6792807F59A0049C375 /* LaunchScreen.storyboard */,
+				2D2AE67C2807F59A0049C375 /* Info.plist */,
+				2D2AE6742807F5960049C375 /* MotoryTaskFahed.xcdatamodeld */,
+			);
+			path = MotoryTaskFahed;
+			sourceTree = "<group>";
+		};
+		2D2AE6822807F96D0049C375 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2D2AE6832807F9840049C375 /* Colors.swift */,
+				2D2AE6852807FACA0049C375 /* Constants.swift */,
+				2D2AE68C2807FC590049C375 /* Urls.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2D2AE6872807FB620049C375 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2D2AE6882807FB730049C375 /* GalleryItem.swift */,
+				2D2AE68A2807FB860049C375 /* ImagesUrl.swift */,
+				2D2AE6A92809ED690049C375 /* User.swift */,
+				2D2AE6A3280841780049C375 /* GalleryItemCoreData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D2AE68E2807FCB10049C375 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2D2AE68F2807FD060049C375 /* WishlistButton.swift */,
+				2D2AE6912807FD2C0049C375 /* ImageViewRounded.swift */,
+				2D2AE6A72809B7840049C375 /* CustomSearchBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D2AE6952807FEF40049C375 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2D2AE66F2807F5950049C375 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2D2AE69628080F030049C375 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2D2AE697280810980049C375 /* TableCollectionViewCell.xib */,
+				2D2AE699280813EF0049C375 /* TableCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2D2AE69C28081C2C0049C375 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				2D2AE6712807F5960049C375 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		2D2AE6A52808C0E20049C375 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				2D2AE69D28081D8B0049C375 /* WishlistDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		498CCB839C55D7C1C3F2DF72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				689D9374CE3F26F2D06B5817 /* Pods_MotoryTaskFahed.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D2AE6672807F5950049C375 /* MotoryTaskFahed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D2AE67F2807F59A0049C375 /* Build configuration list for PBXNativeTarget "MotoryTaskFahed" */;
+			buildPhases = (
+				B4909182D093AAB4771E86AF /* [CP] Check Pods Manifest.lock */,
+				2D2AE6642807F5950049C375 /* Sources */,
+				2D2AE6652807F5950049C375 /* Frameworks */,
+				2D2AE6662807F5950049C375 /* Resources */,
+				EF32B0C02A408D554822A091 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotoryTaskFahed;
+			productName = MotoryTaskFahed;
+			productReference = 2D2AE6682807F5950049C375 /* MotoryTaskFahed.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D2AE6602807F5950049C375 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					2D2AE6672807F5950049C375 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 2D2AE6632807F5950049C375 /* Build configuration list for PBXProject "MotoryTaskFahed" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D2AE65F2807F5950049C375;
+			productRefGroup = 2D2AE6692807F5950049C375 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D2AE6672807F5950049C375 /* MotoryTaskFahed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D2AE6662807F5950049C375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2AE67B2807F59A0049C375 /* LaunchScreen.storyboard in Resources */,
+				2D2AE6782807F59A0049C375 /* Assets.xcassets in Resources */,
+				2D2AE698280810980049C375 /* TableCollectionViewCell.xib in Resources */,
+				2D2AE6732807F5960049C375 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B4909182D093AAB4771E86AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MotoryTaskFahed-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF32B0C02A408D554822A091 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MotoryTaskFahed/Pods-MotoryTaskFahed-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MotoryTaskFahed/Pods-MotoryTaskFahed-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MotoryTaskFahed/Pods-MotoryTaskFahed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D2AE6642807F5950049C375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2AE68D2807FC590049C375 /* Urls.swift in Sources */,
+				2D2AE6702807F5950049C375 /* ViewController.swift in Sources */,
+				2D2AE6A82809B7840049C375 /* CustomSearchBar.swift in Sources */,
+				2D2AE69E28081D8B0049C375 /* WishlistDelegate.swift in Sources */,
+				2D2AE6AA2809ED690049C375 /* User.swift in Sources */,
+				2D2AE6842807F9840049C375 /* Colors.swift in Sources */,
+				2D2AE6892807FB730049C375 /* GalleryItem.swift in Sources */,
+				2D2AE68B2807FB860049C375 /* ImagesUrl.swift in Sources */,
+				2D2AE6762807F5960049C375 /* MotoryTaskFahed.xcdatamodeld in Sources */,
+				2D2AE6902807FD060049C375 /* WishlistButton.swift in Sources */,
+				2D2AE6A4280841780049C375 /* GalleryItemCoreData.swift in Sources */,
+				2D2AE69A280813EF0049C375 /* TableCollectionViewCell.swift in Sources */,
+				2D2AE66C2807F5950049C375 /* AppDelegate.swift in Sources */,
+				2D2AE66E2807F5950049C375 /* SceneDelegate.swift in Sources */,
+				2D2AE6862807FACA0049C375 /* Constants.swift in Sources */,
+				2D2AE6922807FD2C0049C375 /* ImageViewRounded.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2D2AE6712807F5960049C375 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D2AE6722807F5960049C375 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D2AE6792807F59A0049C375 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D2AE67A2807F59A0049C375 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D2AE67D2807F59A0049C375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D2AE67E2807F59A0049C375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D2AE6802807F59A0049C375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14CD42A954F2BB5B26118717 /* Pods-MotoryTaskFahed.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 322VKH479W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MotoryTaskFahed/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FahedApps.MotoryTaskFahed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D2AE6812807F59A0049C375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AC20BF6C17D9E3E5051EEB7 /* Pods-MotoryTaskFahed.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 322VKH479W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MotoryTaskFahed/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FahedApps.MotoryTaskFahed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D2AE6632807F5950049C375 /* Build configuration list for PBXProject "MotoryTaskFahed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D2AE67D2807F59A0049C375 /* Debug */,
+				2D2AE67E2807F59A0049C375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D2AE67F2807F59A0049C375 /* Build configuration list for PBXNativeTarget "MotoryTaskFahed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D2AE6802807F59A0049C375 /* Debug */,
+				2D2AE6812807F59A0049C375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2D2AE6742807F5960049C375 /* MotoryTaskFahed.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2D2AE6752807F5960049C375 /* MotoryTaskFahed.xcdatamodel */,
+			);
+			currentVersion = 2D2AE6752807F5960049C375 /* MotoryTaskFahed.xcdatamodel */;
+			path = MotoryTaskFahed.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2D2AE6602807F5950049C375 /* Project object */;
+}

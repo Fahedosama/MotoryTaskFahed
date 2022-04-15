@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController interfaceStyle="light" id="BYZ-38-t0r" customClass="ViewController" customModule="MotoryTaskFahed" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="h8m-kp-oMq">
+                                <rect key="frame" x="16" y="56" width="382" height="189"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vue-lv-9z8">
+                                        <rect key="frame" x="0.0" y="0.0" width="382" height="43"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="36"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <searchBar contentMode="redraw" placeholder="Search your image" translatesAutoresizingMaskIntoConstraints="NO" id="6yH-gg-jZC" customClass="CustomSearchBar" customModule="MotoryTaskFahed" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="51" width="382" height="51"/>
+                                        <color key="barTintColor" name="buttonInactive"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </searchBar>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="TW2-YS-rWS">
+                                        <rect key="frame" x="0.0" y="110" width="382" height="31"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AWb-6d-ZoS">
+                                                <rect key="frame" x="0.0" y="0.0" width="187" height="31"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Images">
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="btnImagesClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mgP-pC-9na"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Of-zg-0NK">
+                                                <rect key="frame" x="195" y="0.0" width="187" height="31"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="My Favorite"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="My Favorite">
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="btnWishListClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ckt-HS-ceZ"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k6N-qO-2pE">
+                                        <rect key="frame" x="0.0" y="149" width="382" height="40"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Results" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YBT-j6-gq1">
+                                                <rect key="frame" x="0.0" y="5.5" width="81" height="29"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7eS-lq-S0r">
+                                                <rect key="frame" x="292" y="4.5" width="90" height="31"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xb7-CA-hc6">
+                                                        <rect key="frame" x="0.0" y="0.0" width="44" height="31"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" image="list.bullet.below.rectangle" catalog="system">
+                                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="btnTableViewClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GRr-ts-3L8"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EGN-Wz-dG0">
+                                                        <rect key="frame" x="44" y="0.0" width="46" height="31"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" image="rectangle.grid.3x2" catalog="system">
+                                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="btnGridView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YB8-GS-TgU"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="7eS-lq-S0r" secondAttribute="trailing" id="2Bm-5G-AjA"/>
+                                            <constraint firstAttribute="height" constant="40" id="FB5-7a-JHs"/>
+                                            <constraint firstItem="YBT-j6-gq1" firstAttribute="centerY" secondItem="k6N-qO-2pE" secondAttribute="centerY" id="Jug-lP-78E"/>
+                                            <constraint firstItem="YBT-j6-gq1" firstAttribute="leading" secondItem="k6N-qO-2pE" secondAttribute="leading" id="PoG-Ob-aFD"/>
+                                            <constraint firstItem="7eS-lq-S0r" firstAttribute="centerY" secondItem="k6N-qO-2pE" secondAttribute="centerY" id="YJo-Dw-FHy"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="mYY-A5-fne">
+                                <rect key="frame" x="16" y="253" width="382" height="609"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="AtC-NL-5yb">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="backColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mYY-A5-fne" secondAttribute="trailing" constant="16" id="0DN-81-pxu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="mYY-A5-fne" secondAttribute="bottom" id="Bzu-DQ-jbe"/>
+                            <constraint firstItem="mYY-A5-fne" firstAttribute="top" secondItem="h8m-kp-oMq" secondAttribute="bottom" constant="8" symbolic="YES" id="Oml-wB-zub"/>
+                            <constraint firstItem="mYY-A5-fne" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="jxB-Gc-yfk"/>
+                            <constraint firstItem="h8m-kp-oMq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="phi-Vg-V8q"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="h8m-kp-oMq" secondAttribute="trailing" constant="16" id="qrL-OB-B5u"/>
+                            <constraint firstItem="h8m-kp-oMq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="wgi-xQ-9VL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnGridView" destination="EGN-Wz-dG0" id="59N-2O-rK3"/>
+                        <outlet property="btnImages" destination="AWb-6d-ZoS" id="zDg-KI-5dC"/>
+                        <outlet property="btnTableView" destination="xb7-CA-hc6" id="oac-WB-laO"/>
+                        <outlet property="btnWishList" destination="4Of-zg-0NK" id="TMK-SI-0N1"/>
+                        <outlet property="collectionView" destination="mYY-A5-fne" id="Lv2-FX-zjw"/>
+                        <outlet property="searchBar" destination="6yH-gg-jZC" id="Az3-uH-KlL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="128.57142857142856"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="6yH-gg-jZC">
+            <size key="intrinsicContentSize" width="-1" height="51"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="list.bullet.below.rectangle" catalog="system" width="128" height="112"/>
+        <image name="rectangle.grid.3x2" catalog="system" width="128" height="101"/>
+        <namedColor name="backColor">
+            <color red="0.12156862745098039" green="0.14509803921568626" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="buttonInactive">
+            <color red="0.14509803921568626" green="0.20000000000000001" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
